@@ -21,7 +21,7 @@ function generatePassword() {
   
   //could use an array of strings, each of the strings consisting of a complete list of characters of a type
   //would be using a for loop to generate a random character of a random index of the master array
-  const characters = ["abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "0123456789", "!@#$%^&*()-="]
+  const characters = ["abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "0123456789", "!@#$%^&*()"]
   let masterStr = "";
   if(lowL) {
     masterStr += characters[0];
@@ -38,7 +38,7 @@ function generatePassword() {
 
   console.log(masterStr)
   
-  //would be using a for loop to generate a random index of a random index of the master array
+  //would be using a for loop to generate a random character from a random part of the master array
   //an array called characters, where the items are arrays consisting of characters of that type
   //how to reference the specific arrays based on the confirm choices?
   //could use if statement. if these confirms return true, use these sub-arrays
