@@ -3,4 +3,6 @@ This is a a random password generator made using JavaScript, in which the user s
 
 Note: There are very few commits on this submission because it was done in a session with my tutor, and I didn't see the comments on last week's homework saying I should be committing more often until this one was already finished. Sorry!
 
+https://awkwardlynumb.github.io/wk3MattPearceHw/
+
 
